@@ -1,0 +1,75 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F5E8C7;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+
+/* Header */
+
+h1 {
+ margin: 5px;
+}
+
+hr {
+    border-top: 1px solid #CA965C;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    width: 75%;
+    margin: auto;
+}
+
+/* main */
+.container {
+    background-image: url(images/comfort.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+.comfort_img{
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    opacity: .6;
+}
+
+.menu_container {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -275px;
+    left: 100px;
+    padding: 20px;
+    margin: auto;
+    opacity: .8;
+}
+
+ul.recipe_lst{
+    padding: 0;
+}
+
+.recipe_lst > li a {
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+}
+/* footer */
+
+.credit {
+    text-align: center;
+    font-size: .8em;
+    margin: 5px;
+}
